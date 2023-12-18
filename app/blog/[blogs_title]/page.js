@@ -1,6 +1,11 @@
 export default function blogTitle({params}){
-    const {id} = params
+    const {blogs_title} = params
     return (
-        <div> page {id} </div>
+        <>
+        <div> page {blogs_title} </div>
+      <div> <h2> hello </h2>
+      </div>
+      </>
+
     )
 }
